@@ -1,10 +1,6 @@
 <p align="center">
-  <img src="assets/elitte-logo.svg" alt="Elitte Capital" width="480" />
-  <br>
+<a href="https://ibb.co/jvCSjB1T"><img src="https://i.ibb.co/jvCSjB1T/GCP.jpg" alt="GCP" border="0"></a>  <br>
   <span style="display:inline-block; margin-top:10px;">
-    <img src="assets/foundlab-badge.svg" alt="FoundLab — Google Partner" width="160" style="vertical-align:middle; margin-right:14px;" />
-    <img src="assets/google-cloud-partner.svg" alt="Google Cloud Partner" width="160" style="vertical-align:middle; margin:0 14px;" />
-    <img src="assets/necton-logo.svg" alt="Necton" width="140" style="vertical-align:middle;" />
   </span>
 </p>
 
