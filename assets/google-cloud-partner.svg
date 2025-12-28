@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80">
+  <defs>
+    <style>
+      .gcp-text { font-family: 'Arial', Helvetica, sans-serif; font-size:14px; fill:#666; }
+    </style>
+  </defs>
+  <rect rx="6" width="100%" height="100%" fill="#ffffff"/>
+  <!-- simplified cloud circle colors -->
+  <g transform="translate(12,8)">
+    <path d="M56 8 C40 8 28 20 28 36 C28 52 40 64 56 64 H104 C120 64 132 52 132 36 C132 20 120 8 104 8 H56 Z" fill="#f7f7f7" />
+    <circle cx="36" cy="36" r="12" fill="#fbbc04" />
+    <path d="M56 8 L88 8 C96 8 104 16 112 24" fill="#ea4335" />
+    <path d="M112 24 C118 30 122 36 122 44 C122 52 116 60 104 60 H88" fill="#1a73e8" />
+    <rect x="48" y="48" width="12" height="12" fill="#34a853" rx="2" />
+  </g>
+  <text x="120" y="50" class="gcp-text">Google Cloud</text>
+  <text x="120" y="68" class="gcp-text" font-weight="700">Partner</text>
+</svg>

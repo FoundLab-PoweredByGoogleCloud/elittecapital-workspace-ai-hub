@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Relatório Mensal — EXAMPLE (Piloto)</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; color: #0b3359; margin: 32px; }
+    .header { text-align: center; margin-bottom: 18px; }
+    .logos img { vertical-align: middle; margin: 6px 12px; }
+    .title { font-size: 20px; font-weight: 700; margin-top: 6px; }
+    .meta { color: #7a7a7a; margin-bottom: 20px; }
+    h2 { color: #0b3359; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+    .kpi { display:flex; gap:18px; margin-bottom: 12px; }
+    .kpi div{ padding:10px; background:#f7fbff; border-radius:6px; box-shadow: 0 1px 0 rgba(11,51,89,0.04); }
+    table { width:100%; border-collapse:collapse; margin-bottom: 10px; }
+    table td, table th{ padding:8px; border:1px solid #eee; }
+    .notes { color:#666; font-size:13px; }
+    @media print { .noprint{ display:none } }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logos">
+      <img src="../../assets/elitte-logo.svg" alt="Elitte Capital" width="420" />
+      <img src="../../assets/foundlab-badge.svg" alt="FoundLab" width="160" />
+    </div>
+    <div class="title">Relatório Mensal — EXAMPLE (Piloto)</div>
+    <div class="meta">Data: 2025-12-28 &nbsp;•&nbsp; Preparado por: FoundLab (piloto fictício)</div>
+  </div>
+
+  <h2>1) Resumo Executivo (5 bullets)</h2>
+  <ul>
+    <li>Carteira teve retorno estimado de <strong>1.17%</strong> no mês (valor ponderado das classes de ativo).</li>
+    <li>Performance YTD aproximada: <strong>7.00%</strong>; equidade superou parcialmente benchmark no mês.</li>
+    <li>Alocação atual: <strong>50% Renda Variável / 30% Renda Fixa / 20% Caixa</strong> — concentração em ações melhora retorno esperado, mas eleva risco.</li>
+    <li>Principais riscos: exposição elevada à renda variável; necessidade de verificar liquidez de posições específicas.</li>
+    <li>Recomendação de curto prazo: considerar <strong>reduzir Renda Variável para 45%</strong> e aumentar Renda Fixa para 35% (rebalanceamento parcial).</li>
+  </ul>
+
+  <h2>2) KPIs</h2>
+  <div class="kpi">
+    <div><strong>AUM total</strong><br/>R$ 1.000.000</div>
+    <div><strong>Retorno do mês</strong><br/>1.17%</div>
+    <div><strong>Retorno YTD</strong><br/>7.00%</div>
+  </div>
+
+  <h2>Alocação (porcentagem)</h2>
+  <table>
+    <thead><tr><th>Classe</th><th>Alocação</th></tr></thead>
+    <tbody>
+      <tr><td>Renda Variável</td><td>50%</td></tr>
+      <tr><td>Renda Fixa</td><td>30%</td></tr>
+      <tr><td>Caixa</td><td>20%</td></tr>
+    </tbody>
+  </table>
+
+  <h2>3) Performance (detalhes)</h2>
+  <ul>
+    <li>Renda Variável (IVVB11): monthly return 2.00% (benchmark 1.5%).</li>
+    <li>Renda Fixa (Tesouro Selic): monthly return 0.50% (benchmark 0.4%).</li>
+    <li>Caixa (Cash): monthly return 0.10% (benchmark ~0.0%).</li>
+  </ul>
+  <p class="notes">Observação: números são fictícios para demonstrar fluxo do piloto.</p>
+
+  <h2>4) Riscos e Oportunidades</h2>
+  <ul>
+    <li>Risco: alta concentração em ações (50%) — exposição a correções de mercado.</li>
+    <li>Risco: dependência de poucos tickers (IVVB11 representa grande parte da alocação de ações).</li>
+    <li>Oportunidade: rebalancear para aumentar exposição a renda fixa com rendimento estáveis.</li>
+    <li>Oportunidade: revisar seleção de ETFs e avaliar inclusão de ativos setoriais com proteção.</li>
+  </ul>
+
+  <h2>5) Ações recomendadas (priorizadas)</h2>
+  <ol>
+    <li>Rebalanceamento parcial: reduzir Renda Variável para 45% e transferir 5% para Renda Fixa (responsável: Mesa; prazo: 2 dias).</li>
+    <li>Revisar exposição específica ao IVVB11 e avaliar alternativas de diversificação (responsável: Analista; prazo: 7 dias).</li>
+    <li>Validar que fontes estão atualizadas e registrar versão das planilhas (responsável: Owner de cada arquivo).</li>
+  </ol>
+
+  <h2>6) Fontes utilizadas (piloto fictício)</h2>
+  <ul>
+    <li><code>Clients/EXAMPLE/Portfolio.csv</code></li>
+    <li><code>Operations/Benchmarks/benchmarks.csv</code></li>
+    <li><code>Operations/Market-Intel/macro-brief.md</code></li>
+  </ul>
+
+  <hr/>
+  <p class="notes noprint">Para exportar em PDF: abra este arquivo no Chrome, pressione Ctrl+P (Imprimir) → Destination: "Salvar como PDF" → Marque "Imprimir planos de fundo" se quiser preservar cores e imagens → Salvar.</p>
+
+</body>
+</html>

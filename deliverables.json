@@ -1,0 +1,18 @@
+{
+  "package": "EC-JAN-FAST",
+  "price_brl": 5000,
+  "duration_business_days": 5,
+  "users": 7,
+  "deliverables": [
+    "Workspace setup + security baseline (MFA, groups, admin roles)",
+    "Shared Drives structure + permissions matrix",
+    "NotebookLM Hub (>=5 notebooks) + prompt pack",
+    "Monthly report template + 1 pilot output",
+    "Training + runbook + UAT sign-off"
+  ],
+  "non_goals": [
+    "Custom SaaS",
+    "Model training",
+    "Deep integrations beyond Workspace"
+  ]
+}

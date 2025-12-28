@@ -1,0 +1,4 @@
+asset_class,ticker,market_value,allocation_pct,monthly_return,ytd_return
+Renda Variável,IVVB11,500000,50,0.02,0.12
+Renda Fixa,Tesouro Selic,300000,30,0.005,0.03
+Caixa,Cash,200000,20,0.001,0.005
